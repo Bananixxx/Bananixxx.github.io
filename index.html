@@ -1,77 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MinecraftRP</title>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="shortcut icon" href="img/ct.png" type="image/x-icon">
-        <script src="https://kit.fontawesome.com/3cc346f338.js" crossorigin="anonymous"></script>
-        <script src="js/index.js"></script>
-        <style>
-                @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&display=swap');
-        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3cc346f338.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 <body>
-        <header>
-                <div class="nav-container" id="navbar">
-                        <div class="site-logo">
-                                <img src="img/logo.png" alt="">
-                        </div>
-                        <nav>
-                                <ul>
-                                        <li><a href="" id="current">Strona główna</a></li>
-                                        <li><a href="">Regulamin</a></li>
-                                        <li><a href="">Sklep</a></li>
-                                        <li><a href="">Discord</a></li>
-                                        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a></li>
-                                </ul>
-                        </nav>
-                </div>
-                <div class="container">
-                        <h1>Serwer roleplay w Minecraft stworzony dla graczy</h1>
-                        <a href=""><i class="fa-brands fa-discord"></i><p>Serwer discord</p></a>
-                </div>
-        </header>
-        <main>
-                <h2>Dlaczego warto sprawdzić nasz serwer?</h2>
-                <div class="res-box">
-                        <div class="res-box-item">
-                                <div class="text">
-                                        <h3>Nowość w polskim Roleplay'u</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam provident reprehenderit minima repudiandae qui quidem quis, quia temporibus ipsam incidunt?</p>
-                                </div>
-                                <div class="image">
-                                        <img src="img/1.png" alt="">
-                                </div>
-                        </div>
-                        <div class="res-box-item reverse">
-                                <div class="text">
-                                        <h3>Rowinięta struktura miasta</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam provident reprehenderit minima repudiandae qui quidem quis, quia temporibus ipsam incidunt?</p>
-                                </div>
-                                <div class="image">
-                                        <img src="img/2.jpg" alt="">
-                                </div>
-                        </div>
-                        <div class="res-box-item">
-                                <div class="text">
-                                        <h3>Dobra zabawa</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam provident reprehenderit minima repudiandae qui quidem quis, quia temporibus ipsam incidunt?</p>
-                                </div>
-                                <div class="image">
-                                        <img src="img/3.jpg" alt="">
-                                </div>
-                        </div>
-                </div>
-        </main>
-        <footer>
-                <ul>
-                        <li>Copyright ©2022 MinecraftRP</li>
-                        <li>Designed by <a href="https://bananixxx.github.io">Bananixxx</a></li>
-                        <li>Created by <a href="https://bananixxx.github.io">Bananixxx</a></li>
-                </ul>
-        </footer>
+    <div class="container">
+        <div class="input-bar">
+            <input type="text" name="" id="text" placeholder="Task to be done..." autocomplete="off">
+            <input type="submit" value="Add" id="button">
+        </div>
+        <div class="output-bar" id="output">
+            
+        </div>
+    </div>
 </body>
 </html>
