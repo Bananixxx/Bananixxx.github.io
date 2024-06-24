@@ -1,0 +1,103 @@
+* {
+    font-weight: 400;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../img/New_Project6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 5vh;
+}
+
+nav ul {
+    margin: 1% auto;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+}
+
+nav a {
+    color: #ffc423;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: .2em .4em;
+}
+
+nav a:hover {
+    background-color: #ffc423;
+    color: #fff;
+    padding: .4em .8em;
+    border-radius: 1em;
+}
+
+nav #home:hover::after {
+    content: " Home";
+    color: #fff;
+}
+
+nav #about:hover::after {
+    content: " About";
+    color: #fff;
+}
+
+nav #files:hover::after {
+    content: " Files";
+    color: #fff;
+}
+
+nav #contact:hover::after {
+    content: " Contact";
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    max-height: 100vh;
+}
+
+.bg-image {
+    width: 35%;
+}
+
+.text {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text h2 {
+    font-size: 2.75rem;
+    margin: .2em 0;
+    font-weight: 800;
+    color: #ffc423;
+    text-align: center;
+}
+
+.text p {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+

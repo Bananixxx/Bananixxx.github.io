@@ -1,0 +1,117 @@
+* {
+    font-weight: 400;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #040404;
+}
+
+hr {
+    width: 30vw;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+}
+
+nav a {
+    color: #ffc423;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: .2em .4em;
+}
+
+nav a:hover {
+    background-color: #ffc423;
+    color: #fff;
+    padding: .4em .8em;
+    border-radius: 1em;
+}
+
+nav #home:hover::after {
+    content: " Home";
+    color: #fff;
+}
+
+nav #about:hover::after {
+    content: " About";
+    color: #fff;
+}
+
+nav #files:hover::after {
+    content: " Files";
+    color: #fff;
+}
+
+nav #contact:hover::after {
+    content: " Contact";
+    color: #fff;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h2 {
+    font-size: 1.5rem;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 800;
+    color: #fff;
+}
+
+.text {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.text h1 {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 9rem;
+    color: #222;
+    font-weight: 800;
+    letter-spacing: 10px;
+    margin: 1.25rem auto;
+}
+
+
+
+.text h3 {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    color: #fff;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    transform: translateY(-5%);
+    text-align: center;
+}
+
+.list ul {
+    margin: 5% auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    list-style: none;
+}
+
+.list li {
+    font-size: 1.5rem;
+    margin: .5rem 0;
+}
